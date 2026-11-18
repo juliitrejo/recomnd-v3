@@ -223,7 +223,9 @@ export default function App() {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-              <h3 style={{ fontSize: '1.35rem', fontWeight: 'bold', margin: 0 }}>Mis Recomendaciones ({filteredList.length})</h3>
+              <h3 style={{ fontSize: '1.35rem', fontWeight: 'bold', margin: 0 }}>
+                Mis Recomendaciones ({filteredList.length})
+              </h3>
             </div>
 
             {loading && <p style={{ color: '#64748b' }}>Cargando recomendaciones...</p>}
